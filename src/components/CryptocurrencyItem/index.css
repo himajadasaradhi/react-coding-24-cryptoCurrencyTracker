@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.currency {
+  width: 20px;
+  height: 20px;
+}
+.currencyName {
+  color: white;
+}
+.usdValue {
+  color: white;
+  margin-right: 20px;
+}
+.euroValue {
+  color: white;
+  margin-left: 20px;
+}
+.item-row {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.currency-name-row {
+  display: flex;
+}
+.usd-euro-row {
+  display: flex;
+  justify-content: flex-start;
+}
